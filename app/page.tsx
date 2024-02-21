@@ -61,7 +61,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeRecharts = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -82,7 +82,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeRecharts = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data2.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data2.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -104,7 +104,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeNivo = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data3.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data3.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -125,7 +125,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeNivo = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data4.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data4.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -146,7 +146,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeApex = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -167,7 +167,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeApex = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data2.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data2.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -217,7 +217,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeHighChart = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data2.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data2.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -252,7 +252,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeHighChart = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -287,7 +287,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeGoogleChart = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data7.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data7.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -323,7 +323,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
 
       try {
         const startTimeGoogleChart = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data8.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data8.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -359,7 +359,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
       const ctx = chartRef.current?.getContext('2d');
       try {
         const startTimeChartsJs = performance.now();
-        const response = await fetch('https://joeceriola99.github.io/chart/data2.json')
+        const response = await fetch('https://joeceriola99.github.io/chart/data/data2.json')
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.statusText}`);
         }
@@ -443,7 +443,7 @@ import {Chart as ChartLine} from 'chart.js/auto';
         const ctx = chartRef.current?.getContext('2d');
         try {
           const startTimeChartsJs = performance.now();
-          const response = await fetch('https://joeceriola99.github.io/chart/data.json')
+          const response = await fetch('https://joeceriola99.github.io/chart/data/data.json')
           if (!response.ok) {
             throw new Error(`Error fetching data: ${response.statusText}`);
           }
